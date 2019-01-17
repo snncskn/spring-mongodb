@@ -20,9 +20,7 @@ public class MongodbApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		System.err.println(userRepo.count());
-
 		System.err.println(userRepo.findAll());
-
 	}
 
 }
